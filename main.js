@@ -62,12 +62,6 @@ addPika.onclick = function() {
  * @TODO implement the rmvPika button which onclick should:
  *      - remove the pikachu image
  */
-html2canvas($("#pikachu")[0]).then(canvas => {
-        //capture all div data as image
-        ctx = canvas.getContext("2d");
-        var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-        var pixelArr = imageData.data;
-})
 
 let thanosSnap = document.getElementById("rmv-pika");
     
