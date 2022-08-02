@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Saira;
+    src: url("fonts/Saira-Regular.ttf");
+}
+
+body {
+    background-color: #383838;
+}
+
+.text {
+    color: white;
+    font-family: Saira;
+    text-align: center;
+    font-size: 3em;
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poke-img {
+    width: 300px;
+}
